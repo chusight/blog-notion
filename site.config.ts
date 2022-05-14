@@ -2,31 +2,31 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'f6f85c1f4880434d868f7cd43bd08c33',
+  rootNotionPageId: '69300519aa2a465aa70f4f12edd1e3e0',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: 'Lambd4',
+  rootNotionSpaceId: 'o-id',
 
   // basic site info (required)åå
-  name: 'hm_dev',
-  domain: 'hmdev.vercel.app',
-  author: 'hanmil lee',
+  name: 'o-id',
+  domain: 'o-id.cc',
+  author: 'o-id',
 
   // open graph metadata (optional)
-  description: "Hanmil's Notion blog",
+  description: "Notion blog",
   // socialImageTitle: 'HM_dev',
   // socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  // twitter: 'transitive_bs',
-  github: 'hanmilLee',
-  linkedin: 'hanmil-lee-828a57187',
-  instagram: '2hanmil',
+  twitter: 'chusight1',
+  github: 'chusight',
+  linkedin: '',
+  instagram: 'onet2lee',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon:'https://hmdev.vercel.app/page-icon.jpg',
+  defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
@@ -62,12 +62,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About me',
-      pageId: 'a32a59aec23c41e08452757e94d96418'
+      title: 'About',
+      pageId: '2c53271e47464ca59f021907db220508'
     },
-    // {
-    //   title: 'Contact',
-    //   pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-    // }
+    {
+      title: 'Contact',
+      pageId: 'b8b7971e749b41f487a1d00c40eb7a0d'
+    }
   ]
 })
